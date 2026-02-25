@@ -135,7 +135,7 @@ function UploadPage() {
       }
 
       // Backend call
-      const res = await axios.post("http://localhost:5000/explain", {
+      const res = await axios.post(" https://hackathon-final-ldgm.onrender.com", {
         text: extractedText,
         language: language
       });
